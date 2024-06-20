@@ -27,7 +27,7 @@ const page = () => {
       <div className="flex flex-col items-center justify-center mt-10 gap-4">
         <div className="border-customGray border-2 rounded-md w-full sm:w-auto">
           <Link href="mailto:sidkarthik@excentrix.tech" target="_blank" rel="noopener noreferrer">
-            <div className="flex gap-2 m-1 p-2">
+            <div className="flex gap-2 m-1 p-1">
               <div className="bg-customBlack rounded-md w-12 flex justify-center items-center">
                 <MdMail color="white" fontSize={25} />
               </div>
@@ -38,10 +38,10 @@ const page = () => {
             </div>
           </Link>
         </div>
-        <div className="flex flex-row justify-center items-center gap-4 w-full sm:w-auto">
+        <div className="flex flex-row justify-center items-center gap-1 w-full sm:w-auto">
           <div className="border-customGray border-2 rounded-md w-full sm:w-auto">
             <Link href="https://www.linkedin.com/in/sid-karthik/" target="_blank" rel="noopener noreferrer">
-              <div className="flex gap-2 m-1 p-2">
+              <div className="flex gap-2 m-1 p-1">
                 <div className="bg-customBlack rounded-md w-12 flex justify-center items-center">
                   <FaLinkedin color="white" fontSize={25} />
                 </div>
@@ -54,7 +54,7 @@ const page = () => {
           </div>
           <div className="border-customGray border-2 rounded-md w-full sm:w-auto">
             <Link href="https://wa.me/+919108287982" target="_blank" rel="noopener noreferrer">
-              <div className="flex gap-2 m-1 p-2">
+              <div className="flex gap-2 m-1 p-1">
                 <div className="bg-customBlack rounded-md w-12 flex justify-center items-center">
                   <IoLogoWhatsapp color="white" fontSize={25} />
                 </div>
@@ -68,7 +68,7 @@ const page = () => {
         </div>
         <div className="border-customGray border-2 rounded-md w-full sm:w-auto">
           <Link href="https://excentrix.tech/" target="_blank" rel="noopener noreferrer">
-            <div className="flex gap-2 m-1 p-2">
+            <div className="flex gap-2 m-1 p-1">
               <div className="bg-customBlack flex justify-center items-center rounded-md">
                 <Image src="/whitelogo.png" alt="logo" width={125} height={60} className="p-2" />
               </div>
