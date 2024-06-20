@@ -48,7 +48,7 @@ const ContactForm: React.FC = () => {
       <div className="text-center tracking-wide lg:px-80">
         Ready to transform your business with cutting-edge AI solutions?
         Our team is here to help. Fill out the form below, and
-        let's start the conversation!
+        let&apos;s start the conversation!
       </div>
       <div className="flex justify-center items-center gap-10 my-16 flex-col md:flex-row">
         <div className="flex flex-col gap-3">
