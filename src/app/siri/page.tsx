@@ -24,10 +24,10 @@ const page = () => {
           Founder
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center mt-10 gap-4">
-        <div className="border-customGray border-2 rounded-md w-full sm:w-auto">
+      <div className="flex flex-col items-center justify-center mt-10 gap-4 p-2">
+        <div className="border-customGray border-2 rounded-md w-full sm:w-auto p-2">
           <Link href="mailto:siritc@excentrix.tech" target="_blank" rel="noopener noreferrer">
-            <div className="flex gap-2 m-1 p-1">
+            <div className="flex gap-2">
               <div className="bg-customBlack rounded-md w-12 flex justify-center items-center">
                 <MdMail color="white" fontSize={25} />
               </div>
@@ -38,27 +38,27 @@ const page = () => {
             </div>
           </Link>
         </div>
-        <div className="flex flex-row justify-center items-center gap-1 w-full sm:w-auto">
-          <div className="border-customGray border-2 rounded-md w-full sm:w-auto">
+        <div className="flex flex-row justify-center items-center gap-4 w-full sm:w-auto">
+          <div className="border-customGray border-2 rounded-md w-full sm:w-auto p-2">
             <Link href="https://www.linkedin.com/in/siri-tc/" target="_blank" rel="noopener noreferrer">
-              <div className="flex gap-2 m-1 p-1">
-                <div className="bg-customBlack rounded-md w-12 flex justify-center items-center">
+              <div className="flex flex-col md:flex-row justify-center items-center gap-2">
+                <div className="bg-customBlack rounded-md w-14 h-10 flex justify-center items-center">
                   <FaLinkedin color="white" fontSize={25} />
                 </div>
-                <div>
+                <div className="text-center">
                   <div className="text-customBlack font-semibold tracking-wide">LINKEDIN</div>
-                  <div className="text-customBlack">/siri-tc</div>
+                  <div className="text-customBlack ">/siri-tc</div>
                 </div>
               </div>
             </Link>
           </div>
-          <div className="border-customGray border-2 rounded-md w-full sm:w-auto">
+          <div className="border-customGray border-2 rounded-md w-full sm:w-auto p-2">
             <Link href="https://wa.me/+917975768180" target="_blank" rel="noopener noreferrer">
-              <div className="flex gap-2 m-1 p-1">
-                <div className="bg-customBlack rounded-md w-12 flex justify-center items-center">
+              <div className="flex flex-col md:flex-row items-center justify-center gap-2">
+                <div className="bg-customBlack rounded-md w-14 h-10 flex justify-center items-center">
                   <IoLogoWhatsapp color="white" fontSize={25} />
                 </div>
-                <div>
+                <div className="text-center">
                   <div className="text-customBlack font-semibold tracking-wide">WHATSAPP</div>
                   <div className="text-customBlack">7975768180</div>
                 </div>
@@ -66,9 +66,9 @@ const page = () => {
             </Link>
           </div>
         </div>
-        <div className="border-customGray border-2 rounded-md w-full sm:w-auto">
+        <div className="border-customGray border-2 rounded-md w-full sm:w-auto p-2">
           <Link href="https://excentrix.tech/" target="_blank" rel="noopener noreferrer">
-            <div className="flex gap-2 m-1 p-1">
+            <div className="flex gap-2">
               <div className="bg-customBlack flex justify-center items-center rounded-md">
                 <Image src="/whitelogo.png" alt="logo" width={125} height={60} className="p-2" />
               </div>
