@@ -21,14 +21,14 @@ const About = () => {
         Today&apos;s Challenges.
         <br />
         <br />
-        In today&apos;s dynamic landscape, harnessing technology isn't just about
-        staying afloat — it&apos;s about propelling forward. That's where we come in.
+        In today&apos;s dynamic landscape, harnessing technology isn&apos;t just about
+        staying afloat — it&apos;s about propelling forward. That&apos;s where we come in.
         Our suite of services spans software development, SaaS solutions, AI
         development, and more, all aimed at automating and enhancing
         foundational processes to streamline operations and drive efficiency.
         <br />
         <br />
-        But we&apos;re not content with merely scratching the surface. We're
+        But we&apos;re not content with merely scratching the surface. We&apos;re
         committed to unlocking the true potential of technology, especially in
         education. Through our expertise in EdTech, we leverage AI to
         personalize learning experiences, empowering educators and students
