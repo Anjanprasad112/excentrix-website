@@ -30,7 +30,7 @@ const Page = () => {
             Bhargav P Raj
           </div>
           <div className="text-lg font-medium text-customBlack">
-            Founder
+            Co-Founder
           </div>
         </div>
         <div className="flex flex-col items-center justify-center mt-10 gap-4 p-2">
