@@ -51,7 +51,7 @@ const Page = () => {
             <div className="border-customGray border-2 rounded-md w-full sm:w-auto p-2">
               <Link href="https://www.linkedin.com/in/sid-karthik/" target="_blank" rel="noopener noreferrer">
                 <div className="flex flex-col md:flex-row justify-center items-center gap-2 py-2">
-                  <div className="bg-customBlack rounded-md w-14 h-10 flex justify-center items-center">
+                  <div className="bg-customBlack rounded-md w-14 h-10 md:h-12 md:w-12 flex justify-center items-center">
                     <FaLinkedin color="white" fontSize={25} />
                   </div>
                   <div className="text-center">
@@ -64,7 +64,7 @@ const Page = () => {
             <div className="border-customGray border-2 rounded-md w-full sm:w-auto p-2">
               <Link href="https://wa.me/+919108287982" target="_blank" rel="noopener noreferrer">
                 <div className="flex flex-col md:flex-row items-center justify-center gap-2 py-2">
-                  <div className="bg-customBlack rounded-md w-14 h-10 flex justify-center items-center">
+                  <div className="bg-customBlack rounded-md w-14 h-10 md:h-12 md:w-12 flex justify-center items-center">
                     <IoLogoWhatsapp color="white" fontSize={25} />
                   </div>
                   <div className="text-center">
