@@ -17,12 +17,12 @@ const Page = () => {
     <div className="flex flex-col min-h-screen">
       <div className="flex-grow">
         <div className="mt-5 flex flex-col justify-center items-center">
-          <div className="w-40 h-40 relative">
+          <div className="w-48 h-48 relative">
             <Image 
               src="/bhargav.jpg" 
               alt="bhargav-img" 
               fill
-              style={{objectFit:'cover'}}
+              style={{objectFit:'cover' , padding:'0'}}
               className="rounded-full"
             />
           </div>
