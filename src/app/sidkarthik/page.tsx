@@ -6,7 +6,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-4 text-center">
+    <footer className="bg-black text-white py-10 text-center">
       <p>© 2024 Excentrix. All Rights Reserved.</p>
     </footer>
   );
@@ -56,7 +56,7 @@ const Page = () => {
                   </div>
                   <div className="text-center">
                     <div className="text-customBlack font-semibold tracking-wide">LINKEDIN</div>
-                    <div className="text-customBlack ">sid-karthik</div>
+                    <div className="text-customBlack">sid-karthik</div>
                   </div>
                 </div>
               </Link>
